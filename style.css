@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(255, 255, 255);
+    direction: rtl;
+}
+
+.Header {
+    margin: auto;
+    text-align: center;
+    width: 450px;
+}
+
+.Container {
+
+    border: 0px #000 solid;
+    display: flex;
+    flex-direction: row;
+}
+
+.ContainerMenu {
+    margin: 0px 0px 5px 5px;
+    direction: rtl;
+    flex-direction: column;
+    width: 300px;
+}
+
+.menu {
+    border: 1px black solid;
+    width: 200px;
+    text-align: center;
+}
+
+.menu:hover {
+    background-color: rgb(165, 57, 57);
+    width: 200px;
+    text-align: center;
+}
+
+.menu-selected {
+    background-color: rgb(165, 57, 57);
+    width: 202px;
+    text-align: center;
+}
+
+.menuFont {
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    border: 0px;
+    background-color: transparent;
+}
+
+.container1 {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.ContainerHot {
+    flex: auto;
+    }
+
+.info {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    border: 0px;
+    background-color: transparent;
+}
+
+.footer {
+    font-size: 25px;
+    color: black;
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.button {
+    margin: -30px;
+    position: fixed;
+    bottom: 40px;
+    width: 100%;
+    text-align: left;
+}
+
+@media (max-width: 500px) {
+    .container1 {
+        background-color: black;
+    }
+}
